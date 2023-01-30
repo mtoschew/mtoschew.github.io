@@ -1,0 +1,117 @@
+
+
+body, nav{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  }
+
+
+
+   /* Zentriere Überschrift */
+   h1{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 36px;
+  }
+
+  
+
+  h2{ 
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* Style für Navigation */
+  nav {
+    text-align: right;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 0 10px; /* Abstand zwischen den Links */
+    text-decoration: none; /* Entferne Unterstreichung */
+    color: #333; /* Dunkelgraue Farbe */
+  }
+
+  
+
+  
+
+  /* === Grid System  ===*/
+
+  .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 33.33%;
+    padding: 0 8px;
+  }
+
+  .column img {
+    box-sizing: border-box;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+  
+
+  [class*='col-'] {
+    float: left;
+  }
+
+  .col-2{
+    box-sizing: border-box;
+    width: 50%;
+    padding: .8rem;
+  }
+
+  @media (max-width: 768px) {
+    .col-2{width: 100%;}
+  }
+
+  .col-2 img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+  }
+
+  .col-3{
+    box-sizing: border-box;
+    width: 50%;
+    padding: .8rem;
+  }
+
+  
+  
