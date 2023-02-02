@@ -1,7 +1,7 @@
 
 
 body, nav{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Quattrocento Sans', sans-serif;
   font-size: 12px;
   }
 
@@ -9,7 +9,7 @@ body, nav{
 
    /* Zentriere Überschrift */
    h1{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Quattrocento Sans', sans-serif;
     text-align: center;
     font-size: 36px;
   }
@@ -28,6 +28,7 @@ body, nav{
   /* Style für Navigation */
   nav {
     text-align: right;
+    font-size: 14px;
   }
 
   nav a {
@@ -118,6 +119,7 @@ body, nav{
     box-sizing: border-box;
     width: 50%;
     padding: .8rem;
+    border-bottom: 0.05rem solid;
   }
 
 
