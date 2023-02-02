@@ -75,24 +75,7 @@ body, nav{
     width: 100%;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}  
-
-@media screen and (max-width: 450px) {
-  .col-8 {
-    flex: 100%;
-    max-width: 100%;
-  }
-  .col-3 {
-    flex: 100%;
-    max-width: 100%;
-  }
-}  
+  
 
   [class*='col-'] {
     float: left;
@@ -104,22 +87,36 @@ body, nav{
     padding: .8rem;
   }
 
-  @media (max-width: 768px) {
-    .col-2{width: 100%;}
-  }
-
-
   .col-2 img{
     object-fit: contain;
     width: 100%;
-    height: auto;
   }
+  
+  .col-5{
+    box-sizing: border-box;
+    width: 50%;
+    padding: .8rem;
+  }
+  .col-5 img{
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .col-5 p{
+    padding: 5.5rem;
+  }
+
 
   .col-3{
     box-sizing: border-box;
     width: 50%;
     padding: .8rem;
     border-bottom: 0.05rem solid;
+  }
+
+  #startbild{
+    border-radius: 15px;
+    height: 70%;
   }
 
 
@@ -152,3 +149,41 @@ body, nav{
     width: 100%;
     height: auto;
   }
+
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 951px) {
+    .col-5 p{
+      padding: 2rem;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .col-5{flex: 100%;
+    max-width: 100%;
+  }
+  .col-5 p{
+    padding: .8rem;
+  }
+}  
+
+
+@media screen and (max-width: 450px) {
+  .col-8 {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .col-3 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}  
+
+@media (max-width: 768px) {
+  .col-2{width: 100%;}
+}
