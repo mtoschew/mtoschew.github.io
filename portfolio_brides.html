@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caroline Toschew - Makeup-Artist</title>
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap">
+  </head>
+  <body>    
+
+    <!-- Grid System -->
+<div class="container">
+  <div class="row">
+    <div class="col-8"><img src="src/bilder/logo.png"></div>
+    <div class="col-8"></div>
+     
+    <div class="col-3"> </div>
+    <div class="col-3"><nav>
+      <a href="index.html">Start</a>
+      <a href="portfolio.html">Portfolio</a>
+        <a href="bio.html">Bio</a>
+        <a href="contact.html">Contact</a>
+    </nav></div>
+  </div>
+
+
+  <!-------------------------- BRIDES HAIRSTYLES --------------------------->
+
+
+   <!-- Images used to open the lightbox -->
+   <div class="cointainer">
+    <div class="r"></div>
+    <div class="col-9"><p style="font-size: 16px;">Bride Hairstyles</p></div>
+    <div class="r">
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hai001.jpeg" width="100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hair002.jpeg" width="100%" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hair005.jpeg" width="100%" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hair004.jpeg" width="100%" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hair006.jpeg" width="100%" onclick="openModal();currentSlide(5)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hair007.jpeg" width="100%" onclick="openModal();currentSlide(6)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hair008.jpeg" width="100%" onclick="openModal();currentSlide(7)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hair009.jpeg" width="100%" onclick="openModal();currentSlide(8)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hair010.jpeg" width="100%" onclick="openModal();currentSlide(9)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hair013.jpeg" width="100%" onclick="openModal();currentSlide(10)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hair012.jpeg" width="100%" onclick="openModal();currentSlide(11)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/hair015.jpeg" width="100%" onclick="openModal();currentSlide(12)" class="hover-shadow">
+    </div>
+    <div class="col-9"> 
+      <p style="font-size: 16px;">Brides MakeUp</p>
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride012.jpeg" width="100%" onclick="openModal();currentSlide(13)" class="hover-shadow">
+    </div>
+    
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride002.jpeg" width="100%" onclick="openModal();currentSlide(14)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride003.jpeg" width="100%" onclick="openModal();currentSlide(15)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride004.jpeg" width="100%" onclick="openModal();currentSlide(16)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride005.jpeg" width="100%" onclick="openModal();currentSlide(17)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride011.jpeg" width="100%" onclick="openModal();currentSlide(18)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride007.jpeg" width="100%" onclick="openModal();currentSlide(19)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride008.jpeg" width="100%" onclick="openModal();currentSlide(20)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride010.jpeg" width="100%" onclick="openModal();currentSlide(21)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride001.jpeg" width="88.8%" onclick="openModal();currentSlide(22)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride006.jpeg" width="88.8%" onclick="openModal();currentSlide(23)" class="hover-shadow">
+    </div>
+    <div class="column-lb">
+      <img src="src/bilder/hochzeiten/bride009.jpeg" width="88.8%" onclick="openModal();currentSlide(24)" class="hover-shadow">
+    </div>
+  </div>
+</div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 12 </div>
+        <img src="src/bilder/hochzeiten/hai001.jpeg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 12</div>
+        <img src="src/bilder/hochzeiten/hair002.jpeg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 12</div>
+        <img src="src/bilder/hochzeiten/hair005.jpeg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 12</div>
+        <img src="src/bilder/hochzeiten/hair004.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 12</div>
+        <img src="src/bilder/hochzeiten/hair006.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 12</div>
+        <img src="src/bilder/hochzeiten/hair007.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7 / 12</div>
+        <img src="src/bilder/hochzeiten/hair008.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 12</div>
+        <img src="src/bilder/hochzeiten/hair009.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">9 / 12</div>
+        <img src="src/bilder/hochzeiten/hair010.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">10 / 12</div>
+        <img src="src/bilder/hochzeiten/hair013.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">11 / 12</div>
+        <img src="src/bilder/hochzeiten/hair012.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">12 / 12</div>
+        <img src="src/bilder/hochzeiten/hair015.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">1 / 12 </div>
+        <img src="src/bilder/hochzeiten/bride012.jpeg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 12</div>
+        <img src="src/bilder/hochzeiten/bride002.jpeg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 12</div>
+        <img src="src/bilder/hochzeiten/bride003.jpeg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 12</div>
+        <img src="src/bilder/hochzeiten/bride004.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 12</div>
+        <img src="src/bilder/hochzeiten/bride005.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 12</div>
+        <img src="src/bilder/hochzeiten/bride011.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7 / 12</div>
+        <img src="src/bilder/hochzeiten/bride007.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 12</div>
+        <img src="src/bilder/hochzeiten/bride008.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">9 / 12</div>
+        <img src="src/bilder/hochzeiten/bride010.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">10 / 12</div>
+        <img src="src/bilder/hochzeiten/bride001.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">11 / 12</div>
+        <img src="src/bilder/hochzeiten/bride006.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">12 / 12</div>
+        <img src="src/bilder/hochzeiten/bride009.jpeg" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column-lb">
+        <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="">
+      </div>
+  
+      <div class="column-lb">
+        <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="">
+      </div>
+  
+      <div class="column-lb">
+        <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="">
+      </div>
+    </div>
+  </div> 
+
+  <script>
+
+// Open the Modal
+function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+  
+  // Close the Modal
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+
+</body>
+</html>
