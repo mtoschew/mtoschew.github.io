@@ -169,7 +169,9 @@ body, nav{
     width: 100%;
   }
 
-  .col-5 p{
+  .col-5>p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
     padding: 5.5rem;
   }
 
